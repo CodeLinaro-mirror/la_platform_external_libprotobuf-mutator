@@ -5,11 +5,11 @@ third_party {
     type: GIT
     value: "https://github.com/google/libprotobuf-mutator"
   }
-  version: "3521f47a2828da9ace403e4ecc4aece1a84feb36"
+  version: "7a2ed51a6b682a83e345ff49fc4cfd7ca47550db"
   license_type: NOTICE
   last_upgrade_date {
     year: 2020
-    month: 2
-    day: 7
+    month: 5
+    day: 28
   }
 }

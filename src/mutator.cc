@@ -16,6 +16,7 @@
 
 #include <algorithm>
 #include <bitset>
+#include <iostream>
 #include <map>
 #include <memory>
 #include <random>
@@ -55,7 +56,7 @@ enum class Mutation : uint8_t {
   Last = Clone,
 };
 
-using MutationBitset = std::bitset<static_cast<size_t>(Mutation::Last)>;
+using MutationBitset = std::bitset<static_cast<size_t>(Mutation::Last) + 1>;
 
 using Messages = std::vector<Message*>;
 using ConstMessages = std::vector<const Message*>;
